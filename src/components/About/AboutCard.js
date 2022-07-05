@@ -23,12 +23,12 @@ function AboutCard() {
               <ImPointRight /> Basketball
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Traveling
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Work hard! Play hard!"{" "}
           </p>
           <footer className="blockquote-footer">Chencheng</footer>
         </blockquote>

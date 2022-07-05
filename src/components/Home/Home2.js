@@ -2,11 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import {AiFillGithub, AiTwotoneMail} from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -54,7 +50,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="purple">connect</span>with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
@@ -76,6 +72,16 @@ function Home2() {
                 >
                   <FaLinkedinIn />
                 </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  onClick={() => window.location = 'yichencheng@outlook.com'}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiTwotoneMail />
+                  </a>
               </li>
             </ul>
           </Col>
