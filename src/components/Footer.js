@@ -13,11 +13,19 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
+      <Col md="4" className="footer-copywright">
+      
+      <a
+                href="https://github.com/soumyajit4419/Portfolio"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+              <h3>Folked from Soumyajit Behera's work</h3>
+              </a>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
+          <h3>Copyright © {year} CC</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
