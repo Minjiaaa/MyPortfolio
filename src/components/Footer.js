@@ -21,7 +21,7 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-              <h3>Folked from Soumyajit Behera's work</h3>
+              <h3>Built based on Soumyajit Behera's template</h3>
               </a>
         </Col>
         <Col md="4" className="footer-copywright">
