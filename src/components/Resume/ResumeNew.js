@@ -10,7 +10,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 const resumeLink =
   // "https://raw.githubusercontent.com/soumyajit4419/portfolio/master/src/Assets/Soumyajit_Behera-BIT_MESRA.pdf";
-  "https://github.com/ChenchengY/ChenchengY/blob/682a096edf0db2af01e43cd5488cd65a158b81b9/%E6%98%93%E5%B0%98%E6%BE%84-%E7%BE%8E%E5%9B%BD%E4%B8%9C%E5%8C%97%E5%A4%A7%E5%AD%A6-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6.pdf"
+  "https://drive.google.com/file/d/19HLAgqKM1U4UBS1Sy0nnkLLq3r09_wr4/view?usp=sharing"
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
 
