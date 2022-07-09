@@ -2,14 +2,15 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Chencheng_Yi_s_Resume3.4.pdf";
+import pdf from "../../Assets/Chencheng_Yi_s_Resume3.3.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://drive.google.com/file/d/1m33IZooNxPm0LweOArJdBNUrp3wvWgr8/view?usp=sharing";
+  // "https://drive.google.com/file/d/1m33IZooNxPm0LweOArJdBNUrp3wvWgr8/view?usp=sharing";
+  "https://raw.githubusercontent.com/ChenchengY/portfolio/master/src/Assets/Chencheng_Yi_s_Resume3.3.pdf"
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
 
@@ -24,7 +25,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
+            href={resumeLink}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -34,7 +35,7 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <Document file={pdf} className="d-flex justify-content-center">
+          <Document file={resumeLink} className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </Row>
