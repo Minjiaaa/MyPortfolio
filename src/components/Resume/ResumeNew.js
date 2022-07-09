@@ -10,7 +10,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 const resumeLink =
   // "https://drive.google.com/file/d/1m33IZooNxPm0LweOArJdBNUrp3wvWgr8/view?usp=sharing";
-  "https://raw.githubusercontent.com/ChenchengY/portfolio/master/src/Assets/Chencheng_Yi_s_Resume3.3.pdf"
+  "https://raw.githubusercontent.com/ChenchengY/portfolio/master/src/Assets/Chencheng_Yi_s_Resume3.4.pdf"
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
 
