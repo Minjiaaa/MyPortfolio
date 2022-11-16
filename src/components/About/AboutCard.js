@@ -7,7 +7,7 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
+          <p style={{ textAlign: "center" }}>
             Hi Everyone, I am <span className="purple">Chencheng </span>
             from <span className="purple"> Shantou, China.</span>
             <br />I am a MSCS(align) student at Northeastern University(Boston).
@@ -15,7 +15,7 @@ function AboutCard() {
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
-          <ul>
+          <ul style={{paddingLeft: "100px"}}>
             <li className="about-activity">
               <ImPointRight /> Post Rock
             </li>
@@ -30,7 +30,7 @@ function AboutCard() {
           <p style={{ color: "rgb(155 126 172)" }}>
             "Work hard! Play hard!"{" "}
           </p>
-          <footer className="blockquote-footer">Chencheng</footer>
+          <footer className="blockquote-footer">Minjia</footer>
         </blockquote>
       </Card.Body>
     </Card>
