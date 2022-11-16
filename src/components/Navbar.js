@@ -9,7 +9,11 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-import  {DiGithub, DiGithubFull, DiGit} from "react-icons/di"
+import  {
+  // DiGithub,
+  // DiGithubFull,
+  DiGit
+} from "react-icons/di"
 
 import { CgFileDocument } from "react-icons/cg";
 
