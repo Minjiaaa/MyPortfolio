@@ -75,10 +75,11 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  onClick={() => window.location = 'yichencheng@outlook.com'}
+                  onClick={() => window.location = 'minjiatao.com'}
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
+                  href="mailto:minjiatao.com"
                 >
                   <AiTwotoneMail />
                   </a>
